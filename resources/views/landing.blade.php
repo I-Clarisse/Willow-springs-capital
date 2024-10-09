@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
-    @vite('resources/css/app.css') 
+    <link rel="icon" href="{{ asset('images/logo_white_background.jpg') }}" type="image/jpg">
+    <title>Willow Springs Capital</title>
+    @vite('resources/css/app.css')
 </head>
 <body class="antialiased bg-gray-100">
 
