@@ -8,7 +8,7 @@
             <a href="/" class="hover:text-gray-300">Home</a>
             <a href="/about" class="hover:text-gray-300">About Us</a>
             <a href="#" class="hover:text-gray-300">Services</a>
-            <a href="#" class="hover:text-gray-300">Projects</a>
+            <a href="/projects" class="hover:text-gray-300">Projects</a>
             <a href="#" class="hover:text-gray-300">Blog</a>
             <a href="#" class="hover:text-gray-300">Contact Us</a>
         </div>
