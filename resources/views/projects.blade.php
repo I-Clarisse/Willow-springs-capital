@@ -96,7 +96,7 @@
             </div>
         </div>
     </div>
-
+    <x-footer />
     <!-- JavaScript for Dynamic Tabs and Tab Indicator -->
    <!-- JavaScript for Dynamic Tabs and Tab Indicator -->
    <script>
