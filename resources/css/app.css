@@ -3,11 +3,10 @@
 @tailwind utilities;
 
 
+
+
 body {
-    overflow-y: hidden; /* Prevent horizontal overflow */
-}
-.bg-cover {
-    background-size: cover; /* Ensure the background image covers the section */
+    font-family: 'Poppins', sans-serif;
 }
 
 
