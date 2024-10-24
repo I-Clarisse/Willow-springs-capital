@@ -30,8 +30,7 @@
                 Every investment we make reflects our deep commitment to integrity, innovation, and positive social impact.
             </p>
             <p>
-                At Willow Springs Capital, we view real estate investment management as a dynamic journey of connection and growth where each endeavor is a meaningful intersection of purpose and progress.
-            </p>
+            At Willow Springs Capital, we are more than a real estate investment firm; we are a catalyst for growth, a force driven by passion, and a guardian of enduring values. Join us in shaping a future where excellence, innovation, and community thrive in harmony.            </p>
         </div>
         <div>
         <img src="{{ asset('images/background.jpeg') }}" alt="about us image" class="w-auto h-50">        </div>
@@ -50,25 +49,31 @@
     <div class="flex flex-col lg:flex-row justify-between items-center lg:items-start w-4/5 mx-auto">
     <div class="w-full lg:w-1/3 p-4">
         <div class="p-6 bg-gray-50 rounded shadow-lg">
-            <img src="{{ asset('images/building-image.jpeg') }}" alt="Investment Management Icon" class="mx-auto mb-6">
+        <i class="fa-solid fa-shield-halved"></i>
             <h4 class="text-2xl font-semibold mb-4">Committed to Growth</h4>
-            <p class="text-gray-600">We are dedicated to fostering both economic and social development through thoughtful, sustainable real estate investments.</p>
+            <p class="text-gray-600">
+            We are devoted to nurturing economic and social advancement with a deep sense of peace and gratitude. Through our thoughtfully designed investments, we cultivate sustainable development, creating spaces where communities and ventures harmoniously thrive. 
+            Each step is a mindful journey toward a more radiant future, reflecting our interconnectedness and shared aspirations.
+            </p>
         </div>
     </div>
 
-    <div class="w-full lg:w-1/3 p-4 mt-20"> <!-- 80px top margin -->
+    <div class="w-full lg:w-1/3 p-4 mt-20"> 
         <div class="p-6 bg-gray-50 rounded shadow-lg">
-            <img src="{{ asset('images/building-image.jpeg') }}" alt="Strategic Partnerships Icon" class="mx-auto mb-6">
+        <i class="fa-solid fa-shield-halved"></i>
             <h4 class="text-2xl font-semibold mb-4">Driven by Passion</h4>
-            <p class="text-gray-600">Our passion for real estate drives us to innovate and make meaningful, positive changes in the communities we serve.</p>
+            <p class="text-gray-600">
+            Our passion for real estate is a source of profound inspiration, driving us to effect meaningful change with serene dedication. We approach each project with an innovative spirit and a heartfelt commitment to enhancing value, cherishing the moments of connection and growth that arise within the communities we serve.
+            </p>
         </div>
     </div>
 
-    <div class="w-full lg:w-1/3 p-4 mt-40"> <!-- Corrected to mt-40 for 160px top margin -->
+    <div class="w-full lg:w-1/3 p-4 mt-40"> 
         <div class="p-6 bg-gray-50 rounded shadow-lg">
-            <img src="{{ asset('images/building-image.jpeg') }}" alt="Community Icon" class="mx-auto mb-6">
+        <i class="fa-regular fa-star"></i>
             <h4 class="text-2xl font-semibold mb-4">Grounded In Values</h4>
-            <p class="text-gray-600">Integrity, transparency, and professionalism are at the heart of everything we do, ensuring long-lasting trust with our clients and partners.</p>
+            <p class="text-gray-600">At Willow Springs Capital, we are rooted in the timeless principles of integrity, transparency, and professionalism. 
+                We uphold the highest standards of ethical conduct, ensuring that every decision and interaction resonates with our commitment to excellence and reflects the delicate interconnectedness that binds us all in a shared pursuit of greatness.</p>
         </div>
     </div>
 </div>
