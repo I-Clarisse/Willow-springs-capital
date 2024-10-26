@@ -1,7 +1,8 @@
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 
 
 
@@ -9,6 +10,12 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.icon-style {
+    color: green; 
+    font-size: 2rem; 
+    border: 2px solid green; 
+    border-radius: 50%; 
+    padding: 15px; 
+}
 
 
-@import "~@fortawesome/fontawesome-free/css/all.min.css";
