@@ -4,16 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
-    @vite('resources/css/app.css') <!-- Assuming you're using Vite -->
+    @vite('resources/css/app.css') 
     <style>
-        /* Prevent horizontal overflow */
         body {
             overflow-x: hidden;
         }
 
         @media (max-width: 768px) {
             .h-screen {
-                height: auto; /* Allow section height to adjust on smaller screens */
+                height: auto; 
             }
         }
     </style>

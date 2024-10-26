@@ -38,8 +38,8 @@
     const mobileMenu = document.getElementById('mobile-menu');
 
     menuToggle.addEventListener('click', () => {
-        // Toggle classes to show/hide the mobile menu
-        mobileMenu.classList.toggle('translate-x-full'); // Hidden state (off-screen to the right)
-        mobileMenu.classList.toggle('translate-x-0');    // Visible state (slides in from the right)
+       
+        mobileMenu.classList.toggle('translate-x-full'); 
+        mobileMenu.classList.toggle('translate-x-0');    
     });
 </script>
