@@ -1,3 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap'); */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.navbar{
+    opacity: 0.5;
+    
+}
+.testimonials-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.testimonial-item {
+    flex: 0 0 50%; /* Each item takes 50% of the container width to display 2 at a time */
+}
+
+.relative.overflow-hidden {
+    overflow: hidden; /* Ensures only two testimonials are visible */
+}

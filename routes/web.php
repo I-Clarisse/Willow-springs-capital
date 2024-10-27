@@ -9,3 +9,8 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('about');
 });
+
+use App\Http\Controllers\TestimonialController;
+
+Route::get('/', [TestimonialController::class, 'mainPage']);
+
