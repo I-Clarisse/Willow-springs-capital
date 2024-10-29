@@ -1,4 +1,4 @@
-<footer class="bg-black text-white py-4">
+<footer class="bg-black bg-opacity-97 text-white py-4">
     <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
         <div class="flex items-center justify-between mb-4">
             <a href="landing" class="flex items-center space-x-3 rtl:space-x-reverse">

@@ -117,8 +117,6 @@
                 }
             });
         }
-
-        // Initialize the default selected tab (e.g., Miami)
         document.addEventListener('DOMContentLoaded', function() {
             showProjects('miami'); // Set Miami as the default view
         });

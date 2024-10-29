@@ -1,9 +1,8 @@
-{{-- resources/views/components/testimonials.blade.php --}}
-<div class="py-12">
+<div class="py-12 coco mt-3">
     <div class="container mx-auto px-4">
-        <h2 class="text-3xl font-bold mb-8 text-center">Testimonials</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div class="bg-gray-100 rounded-lg shadow-md p-6">
+        <h2 class="text-3xl md:text-3xl font-semibold mb-4 text-black text-center py-4">Testimonials</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-3">
+            <div class="bg-gray-100 rounded-lg shadow-md p-6 transform transition duration-300 ease-in-out hover:scale-105">
                 <div class="flex items-center mb-4">
                     <!-- <div class="w-12 h-12 bg-gray-300 rounded-full mr-4"></div> -->
                     <div>
@@ -29,7 +28,7 @@
                 </div>
                 <p class="text-gray-700">We partnered with Willow Springs Capital to find the perfect office space for our expanding company, and they exceeded our expectations. The team worked closely with us to understand our needs and found us a location that perfectly matches our business goals. Their commitment to integrity and community focus is evident in every interaction. I would highly recommend them to anyone looking to make smart, socially-conscious real estate decisions.</p>
             </div>
-            <div class="bg-gray-100 rounded-lg shadow-md p-6">
+            <div class="bg-gray-100 rounded-lg shadow-md p-6 transform transition duration-300 ease-in-out hover:scale-105">
                 <div class="flex items-center mb-4">
                     <!-- <div class="w-12 h-12 bg-gray-300 rounded-full mr-4"></div> -->
                     <div>

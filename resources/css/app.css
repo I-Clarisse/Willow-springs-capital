@@ -6,14 +6,12 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
-
+*{
+    line-height: 1.5;
+}
 body {
     font-family: 'Poppins', sans-serif;
 }
-
-
 
 .navbar{
     opacity: 0.5;
@@ -25,9 +23,19 @@ body {
 }
 
 .testimonial-item {
-    flex: 0 0 50%; /* Each item takes 50% of the container width to display 2 at a time */
+    flex: 0 0 50%; 
 }
 
 .relative.overflow-hidden {
-    overflow: hidden; /* Ensures only two testimonials are visible */
+    overflow: hidden; 
+}
+p{
+    font-size: 15px;
+}
+.navbar-scrolled {
+    background-color: white !important; 
+    color: black !important; 
+}
+.vidBackground{
+    z-index: 1;
 }

@@ -6,69 +6,116 @@
     <link rel="icon" href="{{ asset('images/logo_white_background.jpg') }}" type="image/jpg">
     <title>Willow Springs Capital</title>
     @vite('resources/css/app.css')
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body class="antialiased">
 
 <x-navbar />
-<section class="relative bg-cover bg-center h-screen" style="background-image: url('{{ asset('images/background.jpeg') }}');">
+
+<section id="video-background" class="relative h-screen overflow-hidden vidBackground">
+    <video autoplay loop muted playsinline class="absolute inset-0 w-full h-full object-cover">
+    <source src="{{ asset('videos/background2.MP4') }}" type="video/mp4">
+    Your browser does not support the video tag.
+    </video>
+    
+    
     <div class="absolute inset-0 bg-black opacity-50"></div>
-    <div class="relative z-10 flex items-center justify-center h-full text-center">
-        <div class="text-white">
-            <h1 class="text-4xl md:text-6xl font-bold">SMART <br> PROPERTY <br> INVESTMENTS</h1>
-            <p class="mt-4 text-base md:text-lg">Discover the future of property investments with our strategic expertise and partnership opportunities.</p>
-            <a href="#overview" class="mt-6 inline-block px-8 py-3 bg-gray-800 hover:bg-gray-700 text-white font-semibold rounded">Learn More</a>
+
+    <div class="relative z-10 flex flex-col justify-center h-full text-left pl-[10%]"> <!-- Change flex direction to column -->
+        <div class="span1 flex items-center">
+            <p class="text-sm text-gray-200 uppercase tracking-wide mb-1">#Number 1<br> Real Estate</p>
+            <h1 class="text-5xl md:text-6xl text-white font-light uppercase leading-tight ml-4"> 
+                Willow
+            </h1>
+        </div>
+        
+        <div class="mt-2"> 
+            <h1 class="text-5xl md:text-6xl text-white font-light uppercase leading-tight ml-4">
+                Springs
+            </h1>
+        </div>
+
+        <div class="ml-[10%] mt-2">
+            <h1 class="text-5xl md:text-6xl text-white font-light uppercase leading-tight ml-4">
+                Capital
+            </h1>
+            <p class="text-gray-300 mt-4 text-s font-light">
+                At Willow Springs Capital, we are your trusted partner <br> on the path of property investment success.
+            </p>
+
         </div>
     </div>
 </section>
 
-<section id="overview" class="py-16 bg-white">
-    <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <div class="max-w-5xl mx-auto"> <!-- Set maximum width and center the content -->
-            <h2 class="text-3xl md:text-3xl font-semibold mb-4 text-black">Overview</h2> <!-- Set text color to black -->
-            <p class="text-base md:text-s text-black mb-8 py-3"> <!-- Set text color to black -->
-            At Willow Springs Capital, we are more than a real estate investment firm; we are a catalyst for growth, a force driven by passion, and a guardian of enduring values. Join us in shaping a future where excellence, innovation, and community thrive in harmony.
-            </p>
-        </div>
-    </div>
-</section>
-
-<section>
-    <div class="container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center">
-        <div class="lg:w-1/2">
-            <img src="{{ asset('images/building-image.jpeg') }}" alt="Building Image" class="rounded shadow-lg">
-        </div>
-        <div class="lg:w-1/2 mt-8 lg:mt-0 lg:ml-12"> <!-- Adjusted margin to move the title up -->
-            <h3 class="text-2xl md:text-3xl font-semibold mb-4">
-                Our Reputation Is As Real As<br /> <!-- Split the title into two lines -->
-                Our Properties
-            </h3>
-            <p class="text-base text-gray-600 mb-4"> <!-- Added paragraph about premium service -->
-                We are professional real estate investors. You will feel premium service from us, and we have done it for all of our customers.
-            </p>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-4"> <!-- Use grid for responsiveness -->
-                <div class="text-center">
-                    <h4 class="text-3xl font-bold text-gray-800">85+</h4>
-                    <p class="text-base text-gray-600">Happy Customers</p>
-                </div>
-                <div class="text-center">
-                    <h4 class="text-4xl font-bold text-gray-800">34</h4>
-                    <p class="text-base text-gray-600">Real Estate Partners</p>
-                </div>
-                <div class="text-center">
-                    <h4 class="text-4xl font-bold text-gray-800">10</h4>
-                    <p class="text-base text-gray-600">Years of Experience</p>
-                </div>
+<section id="main-section" class="px-4 sm:px-6 lg:px-12 py-16 bg-white">
+    
+    <section id="overview" class="mb-16">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-12 text-center">
+            <div class="max-w-5xl mx-auto">
+                <h2 class="text-3xl md:text-3xl font-semibold mb-4 text-black inline-block pb-3 border-b-2 border-gray-900">Overview</h2>
+                <p class="text-base md:text-s text-black mb-8 py-3">
+                    At Willow Springs Capital, we are more than a real estate investment firm; we are a catalyst for growth, a force driven by passion, and a guardian of enduring values. Join us in shaping a future where excellence, innovation, and community thrive in harmony.
+                </p>
             </div>
         </div>
+    </section>
+
+    <section class="reputation-section mb-16">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-12 flex flex-col lg:flex-row items-center">
+        <div class="lg:w-1/2">
+            <img src="{{ asset('images/sideImage.jpeg') }}" alt="Building Image" class="w-[550px] h-[450px] object-cover shadow-xl border border-gray-200">
+        </div>
+        <div class="lg:w-1/2 mt-8 lg:mt-0 lg:ml-12 flex flex-col min-h-[450px] pt-12 reputation">
+            <h3 class="text-2xl md:text-3xl font-semibold mb-4">
+                Our Reputation Is As Real As<br />
+                Our Properties
+            </h3>
+            <p class="text-base text-gray-600 mb-4 pt-4">
+                We are professional real estate investors. You will feel premium service from us, and we have done it for all of our customers.
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-12">
+                <div class="flex flex-col items-center transform transition duration-300 ease-in-out hover:scale-105 cursor-pointer">
+                    <h4 id="customers" class="text-3xl font-bold text-gray-800">85+</h4>
+                    <p class="text-base text-gray-600 text-center pt-2">Happy<br>Customers</p>
+                </div>
+                <div class="flex flex-col items-center transform transition duration-300 ease-in-out hover:scale-105 cursor-pointer">
+                    <h4 class="text-4xl font-bold text-gray-800">34</h4>
+                    <p class="text-base text-gray-600 text-center pt-2">Real Estate <br>Partners</p>
+                </div>
+                <div class="flex flex-col items-center transform transition duration-300 ease-in-out hover:scale-105 cursor-pointer">
+                    <h4 class="text-4xl font-bold text-gray-800">10</h4>
+                    <p class="text-base text-gray-600 text-center pt-2">Years of<br> Experience</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </section>
+
+    <div class="container mx-auto px-4 sm:px-6 lg:px-12">
+        <x-whatWeOffer/>
+        <x-featuredListings/>
+        <div id="testimonials">
+            <x-testimonials/>
+        </div>
     </div>
 </section>
 
 
-<div class="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
-    <x-whatWeOffer/>
-    <x-featuredListings/>
-    <x-testimonials :testimonials="$testimonials" />
-</div>
+<x-footer/>
 
+<script>
+    document.getElementById('video-background').addEventListener('click', () => {
+        document.querySelector('#main-section').scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+
+    document.getElementById('customers').addEventListener('click', () => {
+        document.querySelector('#testimonials').scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+</script>
 </body>
 </html>
