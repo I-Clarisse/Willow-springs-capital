@@ -8,6 +8,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    scroll-behavior: smooth;
+}
+
 *{
     line-height: 1.5;
 }
@@ -64,10 +68,6 @@ p{
 
 /* Responsive design */
 @media (max-width: 768px) {
-    .flex {
-        flex-direction: column; /* Stack items on smaller screens */
-        align-items: center; /* Center items horizontally */
-    }
     .team-member {
         width: 80%; /* Make team members take up most of the width */
     }

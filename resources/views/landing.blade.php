@@ -12,8 +12,8 @@
 
 <x-navbar />
 
-<section id="video-background" class="relative h-screen overflow-hidden vidBackground">
-    <video autoplay loop muted playsinline class="absolute inset-0 w-full h-full object-cover">
+<section id="video-background" class="relative h-screen overflow-hidden vidBackground ">
+    <video autoplay loop playsinline id="background-video" class="absolute inset-0 w-full h-full object-cover">
     <source src="{{ asset('videos/background2.MP4') }}" type="video/mp4">
     Your browser does not support the video tag.
     </video>
@@ -93,8 +93,12 @@
     </section>
 
     <div class="container mx-auto px-4 sm:px-6 lg:px-12">
+    <div id="what-we-offer">
         <x-whatWeOffer/>
+    </div>
+    <div id="projects">
         <x-featuredListings/>
+    </div>
         <div id="testimonials">
             <x-testimonials/>
         </div>
@@ -105,6 +109,7 @@
 <x-footer/>
 
 <script>
+    const video = document.getElementById('background-video');
     document.getElementById('video-background').addEventListener('click', () => {
         document.querySelector('#main-section').scrollIntoView({
             behavior: 'smooth'
@@ -114,6 +119,24 @@
     document.getElementById('customers').addEventListener('click', () => {
         document.querySelector('#testimonials').scrollIntoView({
             behavior: 'smooth'
+        });
+    });
+
+    window.addEventListener('scroll', () => {
+            if (window.scrollY > 500) {  
+                video.muted = true;
+            } else {
+                video.muted = false;
+            }
+        });
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
         });
     });
 </script>
