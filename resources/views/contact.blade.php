@@ -10,11 +10,11 @@
             overflow-x: hidden;
         }
 
-        @media (max-width: 768px) {
+        /* @media (max-width: 768px) {
             .h-screen {
                 height: auto; 
             }
-        }
+        } */
     </style>
 </head>
 <body class="overflow-x-hidden">
