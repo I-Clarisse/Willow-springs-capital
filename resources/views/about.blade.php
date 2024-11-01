@@ -9,7 +9,7 @@
 
 <body>
     <x-navbar /> 
-    <section class="relative bg-cover bg-center h-screen" style="background-image: url('{{ asset('images/background.jpeg') }}');"> 
+    <section class="relative bg-cover bg-center h-screen vidBackground" style="background-image: url('{{ asset('images/background.jpeg') }}');"> 
     <div class="absolute inset-0 bg-black opacity-50"></div> 
     <div class="relative z-10 flex items-center justify-center h-full text-center"> 
         <div class="text-white"> 

@@ -38,7 +38,7 @@
 <nav class="bg-black bg-opacity-50 text-white py-2 fixed w-full z-10">
     <div class="container mx-auto flex items-center justify-between px-12">
         <div class="flex items-center">
-            <img href="/" src="{{ asset('images/logo_transparent_background.png') }}" alt="Logo" class="h-12 mr-4">
+            <img href="/" src="{{ asset('images/visible.png') }}" alt="Logo" class="h-12 mr-4">
         </div>
         <div class="hidden md:flex space-x-6 ml-auto mr-6 relative">
             <a href="/" class="nav-link hover:text-gray-300 {{ request()->is('/') ? 'active' : '' }}">
@@ -131,7 +131,7 @@
             } else {
                 navbar.classList.remove('navbar-scrolled');
                 navIndicator.style.backgroundColor = 'white'; // Change indicator back to white
-                logo.src = "{{ asset('images/logo_transparent_background.png') }}"; // Original logo
+                logo.src = "{{ asset('images/visible.png') }}"; // Original logo
             }
         });
     });
