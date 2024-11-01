@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
-    @vite('resources/css/app.css') 
+    <link rel="icon" href="{{ asset('images/logo_white_background.jpg') }}" type="image/jpg">
+    <title>Willow Springs Capital</title>
+    @vite('resources/css/app.css')
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         body {
             overflow-x: hidden;
