@@ -24,23 +24,24 @@
     <div class="relative z-10 flex flex-col justify-center h-full text-left pl-[10%]"> <!-- Change flex direction to column -->
         <div class="span1 flex items-center">
             <p class="text-sm text-gray-200 uppercase tracking-wide mb-1">#Number 1<br> Real Estate</p>
-            <h1 class="text-5xl md:text-6xl text-white font-light uppercase leading-tight ml-4"> 
+            <h1 class="text-5xl md:text-6xl text-white font-light uppercase leading-relaxed ml-4"> 
                 Willow
             </h1>
         </div>
         
         <div class="mt-2"> 
-            <h1 class="text-5xl md:text-6xl text-white font-light uppercase leading-tight ml-4">
+            <h1 class="text-5xl md:text-6xl text-white font-light uppercase leading-relaxed ml-4">
                 Springs
             </h1>
         </div>
 
         <div class="ml-[10%] mt-2">
-            <h1 class="text-5xl md:text-6xl text-white font-light uppercase leading-tight ml-4">
+            <h1 class="text-5xl md:text-6xl text-white font-light uppercase leading-relaxed ml-4">
                 Capital
             </h1>
-            <p class="text-gray-300 mt-4 text-s font-light">
-                At Willow Springs Capital, we are your trusted partner <br> on the path of property investment success.
+            <p class="text-gray-300 mt-4 text-l font-light">
+            Come and pay us a visit. <br class="hidden md:block"/>
+            You're always welcome.
             </p>
 
         </div>
@@ -61,35 +62,35 @@
     </section>
 
     <section class="reputation-section mb-16">
-    <div class="container mx-auto px-4 sm:px-6 lg:px-12 flex flex-col lg:flex-row items-center">
-        <div class="lg:w-1/2">
-            <img src="{{ asset('images/sideImage.jpeg') }}" alt="Building Image" class="w-[550px] h-[450px] object-cover shadow-xl border border-gray-200">
-        </div>
-        <div class="lg:w-1/2 mt-8 lg:mt-0 lg:ml-12 flex flex-col min-h-[450px] pt-12 reputation">
-            <h3 class="text-2xl md:text-3xl font-semibold mb-4">
-                Our Reputation Is As Real As<br />
-                Our Properties
-            </h3>
-            <p class="text-base text-gray-600 mb-4 pt-4">
-                We are professional real estate investors. You will feel premium service from us, and we have done it for all of our customers.
-            </p>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-12">
-                <div class="flex flex-col items-center transform transition duration-300 ease-in-out hover:scale-105 cursor-pointer">
-                    <h4 id="customers" class="text-3xl font-bold text-gray-800">85+</h4>
-                    <p class="text-base text-gray-600 text-center pt-2">Happy<br>Customers</p>
-                </div>
-                <div class="flex flex-col items-center transform transition duration-300 ease-in-out hover:scale-105 cursor-pointer">
-                    <h4 class="text-4xl font-bold text-gray-800">34</h4>
-                    <p class="text-base text-gray-600 text-center pt-2">Real Estate <br>Partners</p>
-                </div>
-                <div class="flex flex-col items-center transform transition duration-300 ease-in-out hover:scale-105 cursor-pointer">
-                    <h4 class="text-4xl font-bold text-gray-800">10</h4>
-                    <p class="text-base text-gray-600 text-center pt-2">Years of<br> Experience</p>
-                </div>
+        <div class="container mx-auto px-4 sm:px-6 lg:px-12 flex flex-col lg:flex-row items-center">
+            <div class="lg:w-1/2">
+                <img src="{{ asset('images/sideImage.jpeg') }}" alt="Building Image" class="w-[550px] h-[450px] object-cover shadow-xl border border-gray-200">
             </div>
+            <div class="lg:w-1/2 mt-8 lg:mt-0 lg:ml-12 flex flex-col min-h-[450px] pt-12 reputation">
+                <h3 class="text-2xl md:text-3xl font-semibold mb-4 leading-relaxed">
+                    Our Reputation Is As Real As<br />
+                    Our Properties
+                </h3>
+                <p class="text-base text-gray-600 mb-4 pt-4">
+                    We are professional real estate investors. You will feel premium service from us, and we have done it for all of our customers.
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-12">
+                    <div class="flex flex-col items-center transform transition duration-300 ease-in-out hover:scale-105 cursor-pointer">
+                        <h4 id="customers" class="text-3xl font-bold text-gray-800">85+</h4>
+                        <p class="text-base text-gray-600 text-center pt-2">Happy<br>Customers</p>
+                    </div>
+                    <div class="flex flex-col items-center transform transition duration-300 ease-in-out hover:scale-105 cursor-pointer">
+                        <h4 class="text-4xl font-bold text-gray-800">34</h4>
+                        <p class="text-base text-gray-600 text-center pt-2">Real Estate <br>Partners</p>
+                    </div>
+                    <div class="flex flex-col items-center transform transition duration-300 ease-in-out hover:scale-105 cursor-pointer">
+                        <h4 class="text-4xl font-bold text-gray-800">10</h4>
+                        <p class="text-base text-gray-600 text-center pt-2">Years of<br> Experience</p>
+                    </div>
+                </div>
 
+            </div>
         </div>
-    </div>
     </section>
 
     <div class="container mx-auto px-4 sm:px-6 lg:px-12">

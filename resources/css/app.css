@@ -58,17 +58,20 @@ p{
 }
 
 .icon-style {
-    color: green; /* Green color for the icon */
-    font-size: 24px; /* Adjust the size of the icon */
+    color: green; 
+    font-size: 24px; 
 }
-/* Base styles for team members */
 .team-member {
-    flex: 1 1 200px; /* Allow flex items to grow and shrink with a minimum width */
+    flex: 1 1 200px; 
 }
-
-/* Responsive design */
+.theedivs{
+    /* background-color: red; */
+}
+.yaa{
+    /* background-color: yellow; */
+}
 @media (max-width: 768px) {
     .team-member {
-        width: 80%; /* Make team members take up most of the width */
+        width: 80%; 
     }
 }

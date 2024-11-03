@@ -1,8 +1,12 @@
 <div class="py-4 mt-8">
     <div class="flex justify-between items-center mb-12">
         <h2 class="text-2xl font-bold">Explore Our Featured<br> Listings</h2>
-        <a href="{{ url('/projects') }}" class="text-xs text-black border border-black px-4 py-2.5 rounded-full transition duration-100 ease-in-out hover:scale-105 cursor-pointer">View Our Listings</a>
+        <!-- <a href="{{ url('/projects') }}" class="text-xs text-black border border-black px-4 py-2.5 rounded-full transition duration-100 ease-in-out hover:scale-105 cursor-pointer">View Our Listings</a>
+        </a> -->
 
+        <a href="{{ url('/') }}#projects" class="inline-flex text-xs items-center bg-white border border-gray-800 text-gray-800 px-4 py-2.5 rounded-full shadow hover:bg-gray-800 hover:text-white transition duration-300">
+            View Our Listings <span class="ml-2">→</span>
+        </a>
     </div>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
         <div class="bg-white w-81 shadow-md overflow-hidden transform transition duration-200 ease-in-out hover:scale-105 cursor-pointer relative">

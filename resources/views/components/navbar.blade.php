@@ -33,17 +33,10 @@
         font-size: 0.875rem;
         transition: transform 0.1s ease-in-out, background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
     }
-
-    .contact-btn:hover {
-        background-color: #ffffff;
-        color: black;
-        transform: scale(1.05);
-    }
     .navbar-scrolled .contact-btn {
         color: black;
         border-color: black;
         box-shadow: none;
-
     }
 
     .navbar-scrolled .nav-link.active {
@@ -62,7 +55,7 @@
     }
 </style>
 
-<nav class=" text-white py-2 fixed w-full z-10">
+<nav class=" text-white py-2 fixed w-full z-10 ">
     <div class="container mx-auto flex items-center justify-between px-12">
         <div class="flex items-center">
             <img href="/" src="{{ asset('images/visible.png') }}" alt="Logo" class="h-12 mr-4">
@@ -85,9 +78,13 @@
                 Blog
             </a> -->
         </div>
+        
         <!-- Contact Us Button on the Far Right -->
         <div class="ml-auto">
-            <a href="/contact" class="contact-btn">Contact Us</a>
+            <!-- <a href="/contact" class="contact-btn">Contact Us</a> -->
+            <a href="/contact" class="inline-flex text-xs items-center text-white border border-white contact-btn px-4 py-2.5 rounded-full shadow hover:bg-gray-800 hover:text-white hover:border-gray-800 transition duration-300">
+            Contact Us 
+        </a>
         </div>
         <!-- Hamburger Icon for Mobile -->
         <button id="menu-toggle" class="md:hidden flex items-center p-2 focus:outline-none">
