@@ -64,12 +64,6 @@ p{
 .team-member {
     flex: 1 1 200px; 
 }
-.theedivs{
-    /* background-color: red; */
-}
-.yaa{
-    /* background-color: yellow; */
-}
 @media (max-width: 768px) {
     .team-member {
         width: 80%; 

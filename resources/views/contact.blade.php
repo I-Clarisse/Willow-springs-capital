@@ -24,7 +24,7 @@
 
     <section class="relative bg-cover bg-center h-screen lg:h-screen w-full" style="background-image: url('{{ asset('images/key.jpg') }}');">
         <div class="flex items-center justify-center h-full px-4 md:px-8 lg:px-0">
-            <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-8 max-w-screen-xl w-full">
+            <div class="yeee grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-8 max-w-screen-xl w-full mt-5">
                 <!-- Text Section -->
                 <div class="flex items-center justify-center md:justify-start text-center md:text-left px-4">
                     <div>
