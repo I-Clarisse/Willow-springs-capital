@@ -11,9 +11,9 @@ Route::get('/about', function () {
     return view('about');
 });
 
-Route::get('/projects', function () {
-    return view('projects');
-});
+// Route::get('/projects', function () {
+//     return view('projects');
+// });
 
 // Remove the conflicting /contact route
 Route::get('/contact', [ContactController::class, 'showForm'])->name('contact.form');
