@@ -63,4 +63,6 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+1. **`php artisan serve`**: This runs the built-in PHP server for Laravel, making your application accessible on `localhost:8000`.
+2. **`npm run dev`**: This compiles and watches the Tailwind CSS and other assets like JavaScript for changes.
+
